@@ -1,0 +1,3 @@
+attachmentgenie_example_backend_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: AttachmentgenieExampleBackendBundle:Default:index }

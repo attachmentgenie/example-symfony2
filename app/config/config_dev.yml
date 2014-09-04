@@ -2,9 +2,7 @@ imports:
     - { resource: config.yml }
 
 framework:
-    router:
-        resource: "%kernel.root_dir%/config/routing_dev.yml"
-        strict_requirements: true
+    router:   { resource: "%kernel.root_dir%/config/routing_dev.yml" }
     profiler: { only_exceptions: false }
 
 web_profiler:
@@ -26,6 +24,9 @@ monolog:
 
 assetic:
     use_controller: true
+
+bazinga_faker:
+    orm: doctrine
 
 #swiftmailer:
 #    delivery_address: me@example.com

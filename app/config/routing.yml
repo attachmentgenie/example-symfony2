@@ -1,3 +1,31 @@
+attachmentgenie_example_frontend:
+    resource: "@AttachmentgenieExampleFrontendBundle/Resources/config/routing.yml"
+    prefix:   /
+
+attachmentgenie_example_backend:
+    resource: "@AttachmentgenieExampleBackendBundle/Resources/config/routing.yml"
+    prefix:   /
+
+attachmentgenie_example_api:
+    resource: "@AttachmentgenieExampleApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+attachmentgenie_example:
+    resource: "@AttachmentgenieExampleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+inuits_yata_admin:
+    resource: "@InuitsYataAdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+inuits_yata_api:
+    resource: "@InuitsYataApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+inuits_yata:
+    resource: "@InuitsYataBundle/Resources/config/routing.yml"
+    prefix:   /
+
 NelmioApiDocBundle:
-    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
-    prefix:   /api/doc
+  resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+  prefix:   /api/doc

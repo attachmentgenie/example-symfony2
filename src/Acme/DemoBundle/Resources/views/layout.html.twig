@@ -8,12 +8,6 @@
 {% block title 'Demo Bundle' %}
 
 {% block body %}
-    {% for flashMessage in app.session.flashbag.get('notice') %}
-        <div class="flash-message">
-            <em>Notice</em>: {{ flashMessage }}
-        </div>
-    {% endfor %}
-
     {% block content_header %}
         <ul id="menu">
             {% block content_header_more %}
@@ -26,6 +20,10 @@
 
     <div class="block">
         {% block content %}{% endblock %}
+
+        <p>
+            <a href="{{ path('nelmio_api_doc_index') }}">{{ 'api.doc.link'|trans({}, 'AcmeDemoBundle') }}</a>
+        </p>
     </div>
 
     {% if code is defined %}
