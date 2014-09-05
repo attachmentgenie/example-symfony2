@@ -35,7 +35,7 @@ class AppKernel extends Kernel
             new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
             new Attachmentgenie\ExampleBundle\AttachmentgenieExampleBundle(),
-            new Attachmentgenie\ExampleApiBundle\AttachmentgenieExampleApiBundle(),
+            new Attachmentgenie\ExampleApiV1Bundle\AttachmentgenieExampleApiV1Bundle(),
             new Attachmentgenie\ExampleBackendBundle\AttachmentgenieExampleBackendBundle(),
             new Attachmentgenie\ExampleFrontendBundle\AttachmentgenieExampleFrontendBundle(),
         );

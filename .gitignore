@@ -4,6 +4,7 @@
 /web/bundles/
 /app/cache/*
 /app/logs/*
+/app/Resources/example.db
 /build/
 /vendor/
 /bin/

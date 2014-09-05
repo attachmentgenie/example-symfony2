@@ -1,7 +1,0 @@
-parameters:
-#    attachmentgenie_example_api.example.class: Attachmentgenie\ExampleApiBundle\Example
-
-services:
-#    attachmentgenie_example_api.example:
-#        class: %attachmentgenie_example_api.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

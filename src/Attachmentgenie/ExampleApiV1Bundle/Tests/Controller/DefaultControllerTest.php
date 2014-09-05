@@ -1,6 +1,6 @@
 <?php
 
-namespace Attachmentgenie\ExampleApiBundle\Tests\Controller;
+namespace Attachmentgenie\ExampleApiV1Bundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

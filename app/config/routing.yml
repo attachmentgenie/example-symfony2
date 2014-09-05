@@ -1,3 +1,7 @@
+attachmentgenie_example_api_v1:
+    resource: "@AttachmentgenieExampleApiV1Bundle/Resources/config/routing.yml"
+    prefix:   /
+
 attachmentgenie_example_frontend:
     resource: "@AttachmentgenieExampleFrontendBundle/Resources/config/routing.yml"
     prefix:   /
@@ -6,25 +10,28 @@ attachmentgenie_example_backend:
     resource: "@AttachmentgenieExampleBackendBundle/Resources/config/routing.yml"
     prefix:   /
 
-attachmentgenie_example_api:
-    resource: "@AttachmentgenieExampleApiBundle/Resources/config/routing.yml"
-    prefix:   /
-
 attachmentgenie_example:
     resource: "@AttachmentgenieExampleBundle/Resources/config/routing.yml"
     prefix:   /
 
-inuits_yata_admin:
-    resource: "@InuitsYataAdminBundle/Resources/config/routing.yml"
-    prefix:   /
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 
-inuits_yata_api:
-    resource: "@InuitsYataApiBundle/Resources/config/routing.yml"
-    prefix:   /
+fos_user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /profile
 
-inuits_yata:
-    resource: "@InuitsYataBundle/Resources/config/routing.yml"
-    prefix:   /
+fos_user_register:
+    resource: "@FOSUserBundle/Resources/config/routing/registration.xml"
+    prefix: /register
+
+fos_user_resetting:
+    resource: "@FOSUserBundle/Resources/config/routing/resetting.xml"
+    prefix: /resetting
+
+fos_user_change_password:
+    resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
+    prefix: /profile
 
 NelmioApiDocBundle:
   resource: "@NelmioApiDocBundle/Resources/config/routing.yml"

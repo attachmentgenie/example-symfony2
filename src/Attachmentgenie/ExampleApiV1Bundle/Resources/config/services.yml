@@ -1,0 +1,7 @@
+parameters:
+#    attachmentgenie_example_api_v1.example.class: Attachmentgenie\ExampleApiV1Bundle\Example
+
+services:
+#    attachmentgenie_example_api_v1.example:
+#        class: %attachmentgenie_example_api_v1.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
