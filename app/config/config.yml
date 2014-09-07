@@ -105,16 +105,6 @@ fos_rest:
         json: true
     body_listener: true
 
-knp_snappy:
-    pdf:
-        enabled:    true
-        binary:     /usr/local/bin/wkhtmltopdf
-        options:    []
-    image:
-        enabled:    true
-        binary:     /usr/local/bin/wkhtmltoimage
-        options:    []
-
 mopa_bootstrap:
     form: ~  # Adds twig form theme  support
     menu: ~  # enables twig helpers for menu

@@ -32,13 +32,12 @@
         "knplabs/knp-menu-bundle": "dev-master",
         "knplabs/knp-menu": "2.0.*@dev",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "knplabs/knp-snappy-bundle": "dev-master",
         "doctrine/migrations": "1.0.*@dev",
         "doctrine/doctrine-migrations-bundle": "2.1.*@dev",
         "sonata-project/admin-bundle": "dev-master",
         "sonata-project/doctrine-orm-admin-bundle": "dev-master",
         "sonata-project/jquery-bundle": "dev-master",
-        "willdurand/faker-bundle": "@stable",
+        "willdurand/faker-bundle": "@stable"
     },
     "conflict": {
         "symfony/routing": "2.4.1"
